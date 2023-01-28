@@ -14,6 +14,12 @@ This is a sample repository to use GPT-3 by CLI command.
 ### 1. Create a `.env` file
 You need to create a `.env` file in `gpt` directory.
 
+```
+OPENAI_API_KEY='YOUR_API_KEY'
+```
+
+https://github.com/Kazuki-tam/gpt-python-cli/tree/main/gpt
+
 ### 2. Create a Docker image, build a container, and start the container
 
 ```bash
