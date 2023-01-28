@@ -3,8 +3,8 @@ services:
   python3:
     restart: always
     build: .
-    container_name: 'python3'
+    container_name: 'gpt3-cli'
     working_dir: '/root/'
     tty: true
     volumes:
-      - ./chatgpt:/root/chatgpt
+      - ./gpt:/root/gpt

@@ -12,12 +12,11 @@ def main():
         prompt = input(">: ")
         print("Loading...")
         completions = openai.Completion.create(
-            engine="text-davinci-002",
+            engine="text-davinci-003",
             prompt=prompt,
-            max_tokens=1024,
-            n=1,
+            max_tokens=1000,
             stop=None,
-            temperature=0.5,
+            temperature=0.3,
         )
         for choice in completions.choices:
             print(choice.text)
